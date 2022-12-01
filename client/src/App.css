@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url('./images/communionbg.png');
+  background-size: 50px;
+}
+p, h1, h2 {
+  line-height: 1.5;
+  margin: 10px 0;
+}
+h1 {
+  font-size: 38px;
+}
+p, label, span {
+  font-weight: 700;
+  font-size: 18px;
+}
+input, select {
+  margin: 10px 0px;
+  text-align: center;
+}
+.timeInput {
+  width: 80px;
+}
+.App {
+  text-align: center;
+  border: 5px solid rgb(33, 33, 33);
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 30px 30px;
+}
+.spacer20 {
+  height: 20px;
+}
+.calculationBtn {
+  font-size: 20px;
+  margin: 15px 0px;
+  padding: 15px;
+}
+.toggleBtns button {
+  margin: 0px 10px;
+  padding: 10px;
+}
+.toggleBtns {
+  margin: 30px 0 0
+}
+button {
+  border: none;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  border-radius: 4px;
+}
+.display {
+  margin: 30px 0;
+}
+.display {
+  background-color: rgb(11, 11, 11);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+.credits {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+}
+.creditBtn {
+  height: 50px;
+  width: 50px;
+  font-weight: 700;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.creditBtn:hover {
+  cursor: pointer;
+}
+.creditsDisplay {
+  height: 200px;
+  width: 360px;
+  font-size: 15px;
+  background-color: rgb(33, 33, 33);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.creditsDisplay a {
+  text-decoration: underline;
+  color: white;
+  margin: 20px 0;
+}
+@media screen and (min-width: 1200px) {
+  .App {
+    width: 900px;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
