@@ -14,6 +14,7 @@ export default function ContextProvider(props) {
     const [bloodConsumption, setBloodConsumption] = React.useState(0)
     const [jesusMode, setJesusMode] = React.useState('')
     const [currentmodeweight, setCurrentModeWeight] = React.useState(weight.human)
+    const [showMenu, setShowMenu] = React.useState(false)
 
 
 

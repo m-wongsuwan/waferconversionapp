@@ -4,6 +4,7 @@ import ConsumptionDisplay from './ConsumptionDisplay';
 import ContextProvider from './ContextProvider';
 import Explainer from './Explainer';
 import Credits from './Credits';
+import Menu from './Menu';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Explainer />
       </div>
       <div className='spacer20'></div>
-        <Credits />
+        <Menu />
     </ContextProvider>
 
   );

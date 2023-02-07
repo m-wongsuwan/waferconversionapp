@@ -84,20 +84,47 @@ button {
 .creditBtn:hover {
   cursor: pointer;
 }
+.portrait {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px #000 dashed;
+  position: relative;
+  margin: 10px auto
+}
+.portfolioBtn {
+  background-color: var(--background);
+  border: 2px solid black;
+  border-radius: 4px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+.exitIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
 .creditsDisplay {
-  height: 200px;
-  width: 360px;
-  font-size: 15px;
-  background-color: rgb(33, 33, 33);
-  border-radius: 15px;
-  padding: 10px;
+  /* position: fixed; */
   text-align: center;
-  display: flex;
-  align-items: center;
+  border: 2px solid black;
+  padding: 15px 15px;
+  /* top: 67px; */
+  /* left: 0px; */
+  background-color: white;
+  width: 350px;
 }
 .creditsDisplay a {
+  font-size: 12px;
   text-decoration: underline;
-  color: white;
+  color: black;
   margin: 20px 0;
 }
 @media screen and (min-width: 1200px) {
